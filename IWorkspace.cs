@@ -26,6 +26,12 @@ namespace Pixstock.Common.Model
         /// 
         /// </summary>
         /// <returns></returns>
+        string VirtualPath {get;set;}
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         DateTime? LastFullBuildDate { get; set; }
     }
 }
