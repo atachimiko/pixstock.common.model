@@ -1,13 +1,9 @@
+using Hyperion.Pf.Entity;
+
 namespace Pixstock.Common.Model
 {
-    public interface ILabel
+    public interface ILabel : IEntity<long>
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        long Id { get; set; }
-
         /// <summary>
         /// 
         /// </summary>

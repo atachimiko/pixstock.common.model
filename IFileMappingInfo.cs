@@ -1,11 +1,10 @@
 using System;
+using Hyperion.Pf.Entity;
 
 namespace Pixstock.Common.Model
 {
-    public interface IFileMappingInfo
+    public interface IFileMappingInfo : IEntity<long>
     {
-         long Id { get; set; }
-
         Boolean LostFileFlag { get; set; }
 
         string MappingFilePath { get; set; }

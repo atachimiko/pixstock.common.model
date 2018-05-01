@@ -1,15 +1,10 @@
 using System;
+using Hyperion.Pf.Entity;
 
 namespace Pixstock.Common.Model
 {
-    public interface IWorkspace
+    public interface IWorkspace : IEntity<long>
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        long Id { get; set; }
-
         /// <summary>
         /// 
         /// </summary>

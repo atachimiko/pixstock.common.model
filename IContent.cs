@@ -1,13 +1,9 @@
+using Hyperion.Pf.Entity;
+
 namespace Pixstock.Common.Model
 {
-    public interface IContent
+    public interface IContent : IEntity<long>
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        long Id { get; set; }
-
         string Name { get; set; }
 
         string IdentifyKey { get; set; }
