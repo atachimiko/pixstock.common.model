@@ -10,8 +10,6 @@ namespace Pixstock.Common.Model
         /// <returns></returns>
         string Name { get; set; }
 
-        string OwnerType { get; set; }
-
         string MetaType { get; set; }
 
         string Comment { get; set; }
